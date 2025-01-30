@@ -99,7 +99,7 @@ inventors.sort((a, b) => {
 console.log(inventors);
 
 // KORTERE VERSIE (optioneel):
-// inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year));
+// inventors.sort((a, b) => (b.passed - b.year) - (a.passed - a.year));
 
 // 6. Vind de gegevens over de uitvinder wiens achternaam 'Edison' is.
 // Verwachte uitkomst: { first: 'Thomas', last: 'Edison', year: 1847, passed: 1931 }
